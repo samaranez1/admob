@@ -30,7 +30,8 @@ jobs:
 
       - name: Show Kotlin errors
         if: failure()
-        run: grep -E "^e: " build.log | head -40
+        run: |
+          grep -E "^e: " build.log | head -40
 
       - name: Upload AARs
         uses: actions/upload-artifact@v4
