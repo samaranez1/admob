@@ -1,3 +1,12 @@
+## 💖 Support my work
+
+
+
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/samaranez1)
+[![Ko-fi](https://img.shields.io/badge/Support-Ko--fi-ff5e5b?logo=kofi&logoColor=white)](https://ko-fi.com/samuelaranez)
+
+
+
 # Godot 4.7.2 Android AdMob Plugin (v2)
 
 Android-only Google AdMob plugin for **Godot 4.7.2** using the **Godot Android plugin v2** system (`GodotPlugin` + `EditorExportPlugin`) and the **Gradle custom build** export flow.
