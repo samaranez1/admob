@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Required for loading and displaying ads. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application>
+        <!--
+        Plugin metadata required by Godot's Android plugin v2 system.
+        ${godotPluginName} and ${godotPluginPackageName} are provided by manifest placeholders
+        in plugin/build.gradle.kts.
+        -->
+        <meta-data
+            android:name="org.godotengine.plugin.v2.${godotPluginName}"
+            android:value="${godotPluginPackageName}.GodotAdMobPlugin" />
+
+        <!--
+        AdMob App ID. This is Google's official sample/test App ID so the project works out of the box.
+        IMPORTANT: Replace with your real AdMob App ID before publishing.
+        If you need to override this from your game's main manifest, you may need to add
+        tools:replace="android:value" on your own meta-data entry.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+
+</manifest>
