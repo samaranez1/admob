@@ -1,10 +1,14 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1795102232
+::res://::1795102592
 demo.gd::GDScript::7200399091696954188::1795100708::0::1::::<>Control<><>0<>0<><>::
 demo_scene.tscn::PackedScene::-1::1795100708::0::1::::<><><>0<>0<><>::res://demo.gd
-export_presets.cfg::TextFile::-1::1795102124::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile::-1::1795102592::0::1::::<><><>0<>0<><>::
 ::res://addons/::1795101144
-::res://addons/GodotAdMob/::1795101148
+::res://addons/GodotAdMob/::1795108014
 AdMob.gd::GDScript::8782920677237646120::1795101144::0::1::::<>Node<><>0<>0<><>::
 export_plugin.gd::GDScript::1374244919367895869::1795101145::0::1::::<>EditorPlugin<><>0<>1<><>::
 plugin.cfg::TextFile::-1::1795101145::0::1::::<><><>0<>0<><>::
+::res://addons/GodotAdMob/bin/::1795108031
+::res://addons/GodotAdMob/bin/debug/::1795108091
+::res://addons/GodotAdMob/bin/release/::1795108103
+::res://android/::1795102269
